@@ -1,0 +1,112 @@
+body
+{
+	overflow-x: hidden;
+	font-family: 'Raleway', sans-serif;
+	background-color: black;
+}
+.container-fluid   .main-img1
+{
+	height:600px;
+	background-image: url('../images/kill.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/* background-size: cover; */
+
+}
+.tt1
+{
+	background-image: url('../images/akemp.png');
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: 100%;
+	transition: .5s ease-in-out;
+}
+
+.tt2
+{
+	background-image: url('../images/howl.png');
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: 100%;
+	transition: .5s ease-in-out;
+}
+.tt2:hover,.tt3:hover,.tt1:hover,.tt4:hover
+{
+	transform: scale(1.1,1.1);
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+.tt3
+{
+	background-image: url('../images/tt3.png');
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: 100%;
+	transition: .5s ease-in-out;
+}
+.tt4
+{
+	background-image: url('../images/tt4.png');
+	background-repeat: no-repeat;
+	height: 300px;
+	background-size: 100%;
+	transition: .5s ease-in-out;
+}
+
+footer .fa
+{
+	
+	transition: .5s ease-in-out;
+	cursor: pointer;
+}
+footer .fa:hover
+{
+	transform: scale(1.1,1.1);
+	transition: .5s ease-in-out;
+}
+.bg-dark
+{
+	background-color: #000 !important;
+}
+h1,h2,h3,h4,h5,h6{
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.71) !important;
+}
+footer
+{
+	height: 150px;
+	background-color: #000;
+	color: #FFF;
+}
+footer .row:nth-child(1)
+{
+	font-size: 40px;
+}
+footer .row:nth-child(2)
+{
+	font-size: 30px;
+}
+@media screen and (max-width:556px){
+	.row .main-img1
+	{
+		height: 400px;
+		background-color: #000;
+	}
+	footer  .col-lg-1:nth-child(1)
+	{
+		width: 25%;
+		margin-left:18%;
+	}
+	footer  .col-lg-1:nth-child(2)
+	{
+		width: 25%;
+		/* margin-left:10%; */
+	}
+	footer  .col-lg-1:nth-child(3)
+	{
+		width: 25%;
+		/* margin-left:10%; */
+	}
+	footer .row:nth-child(2) p
+	{
+		margin-left: 18%;
+	}
